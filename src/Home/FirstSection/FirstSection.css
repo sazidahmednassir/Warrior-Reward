@@ -1,0 +1,74 @@
+@media only screen and (max-width: 768px) {
+  /* section start */
+  .section {
+    position: relative;
+    width: 600px;
+    height: 160px;
+
+    overflow: hidden;
+    display: flex;
+  }
+
+  /* background color */
+  .section::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100vh;
+    height: 100vh;
+    background: linear-gradient(45deg, #4c67ad 0%, #8270f7 83.45%);
+    border-radius: 50%;
+    transform-origin: bottom;
+    transform: translateX(-62%) scale(1.5);
+  }
+
+  /* section content z index */
+  .section .content {
+    z-index: 1;
+  }
+
+  /* section info style */
+  .info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 79px;
+    top: 46px;
+  }
+
+  /* section info userName style */
+  .info .userName {
+    width: 100px;
+    height: 24px;
+    font-family: 'Tatsam Bengali Rnd';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f2f2f2;
+  }
+
+  /* section info userLevel style */
+  .info .userLevel {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #f2f2f2;
+  }
+
+  .section .text {
+    display: flex;
+  }
+
+  .user {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 24px;
+    top: 36px;
+    border-radius: 52px;
+  }
+}
