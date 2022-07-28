@@ -1,5 +1,8 @@
 import React from 'react';
 import trophy from '../../Images/Icons/tr.svg';
+import bigdown from '../../Images/User/bigdown.png';
+import big from '../../Images/User/bigtrophy.png';
+import point from '../../Images/User/point.png';
 import user from '../../Images/User/user.png';
 import './FirstSection.css';
 const FirstSection = () => {
@@ -24,6 +27,18 @@ const FirstSection = () => {
             </div>
      </div>
       
+      </div>
+      <div className="rewardPoint">
+        <div className='levelPoint'>
+            <span className='rewardLevel'>আপনার লেভেল :  Warrior</span>
+           <img src={point} alt="" />
+        </div>
+        <div className='bigTrophy'>
+            <img src={big} className='big' alt="" />
+            <img src={bigdown} className='bigDown' alt="" />
+
+        </div>
+        
       </div>
     </div>
   );

@@ -95,11 +95,59 @@
   .circle {
     width: 200px;
     height: 200px;
-    border: 50px solid #ffffff52;
+    border: 32px solid #ffffff50;
+
     border-radius: 50%;
     position: absolute;
     left: 247px;
     bottom: 40px;
     border-top-left-radius: 110px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  /* rewardpoint style */
+  .rewardPoint {
+    position: absolute;
+    width: 327px;
+    height: 96px;
+    background-color: #ffffff;
+    left: 27px;
+    top: 107px;
+    background: #ffffff;
+    box-shadow: 10px 24px 54px rgba(15, 13, 35, 0.04);
+    border-radius: 16px;
+    display: flex;
+    z-index: 20;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* levelPoint style  */
+
+  .levelPoint {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* rewardLevel style */
+  .rewardLevel {
+    font-family: 'Tatsam Bengali Rnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+    color: #666666;
+
+    opacity: 0.55;
+  }
+
+  /* bigdown style */
+  .bigDown {
+    position: absolute;
+    left: 253px !important;
+    top: 65px !important;
   }
 }
