@@ -29,18 +29,7 @@ const FirstSection = () => {
      </div>
       
       </div>
-      {/* <div className="rewardPoint">
-        <div className='levelPoint'>
-            <span className='rewardLevel'>আপনার লেভেল :  Warrior</span>
-           <img src={point} alt="" />
-        </div>
-        <div className='bigTrophy'>
-            <img src={big} className='big' alt="" />
-            <img src={bigdown} className='bigDown' alt="" />
-
-        </div>
-        
-      </div> */}
+     
       <div className="dash">
         <img src={dash} className='dash-img' alt="" />
       </div>
