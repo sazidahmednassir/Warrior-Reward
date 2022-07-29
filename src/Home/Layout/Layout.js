@@ -2,9 +2,13 @@ import React from 'react';
 import trophy from '../../Images/Icons/tr.svg';
 import bigdown from '../../Images/User/bigdown.png';
 import big from '../../Images/User/bigtrophy.png';
+import backgroundelipse from '../../Images/User/fi.svg';
 import point from '../../Images/User/point.png';
+
+
 import user from '../../Images/User/user.png';
-import './FirstSection.css';
+import './Layout.css';
+
 const FirstSection = () => {
   return (
     <div className="section">
@@ -15,9 +19,10 @@ const FirstSection = () => {
         <span className='userName'>ইশতিয়াক</span>
       <span className='userLevel'>Level-Warrior</span>
       </div>
-      <div className='circle'>
-        
+      <div className='backgroundelipse'>
+        <img className='backgroundelipse--img' src={backgroundelipse} alt=""/>
       </div>
+    
      <div className='reward'>
         <img src={trophy} alt="" />
         
@@ -40,6 +45,9 @@ const FirstSection = () => {
         </div>
         
       </div>
+
+      
+      
     </div>
   );
 };

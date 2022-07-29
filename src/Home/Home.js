@@ -1,10 +1,14 @@
 import React from 'react';
-import FirstSection from './FirstSection/FirstSection';
+import Layout from '../Home/Layout/Layout';
+import Reward from './Reward/Reward';
+
 
 const Home = () => {
     return (
-        
-            <FirstSection></FirstSection>
+        <>
+            <Layout></Layout>
+            <Reward></Reward>
+        </>    
         
     );
 };

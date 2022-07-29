@@ -71,7 +71,7 @@
   .reward {
     position: absolute;
     width: 30px;
-    left: 275px;
+    left: 250px;
     top: 48px;
     display: flex;
     justify-content: center;
@@ -92,18 +92,15 @@
   }
 
   /* circle style */
-  .circle {
-    width: 200px;
-    height: 200px;
-    border: 32px solid #ffffff50;
 
-    border-radius: 50%;
+  .backgroundelipse {
     position: absolute;
-    left: 247px;
-    bottom: 40px;
-    border-top-left-radius: 110px;
-
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    right: 11rem;
+    top: 0rem;
+  }
+  .backgroundelipse--img {
+    height: 190px;
+    width: 190px;
   }
 
   /* rewardpoint style */
