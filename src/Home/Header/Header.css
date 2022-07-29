@@ -9,6 +9,15 @@
     display: flex;
   }
 
+  .dash {
+    z-index: 20;
+  }
+
+  img.dash-img {
+    position: absolute;
+    top: 84px;
+  }
+
   /* background color */
   .section::before {
     content: '';

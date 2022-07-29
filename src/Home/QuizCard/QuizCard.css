@@ -1,0 +1,68 @@
+@media only screen and (max-width: 768px) {
+  /* head section style */
+  .head-section {
+    position: absolute;
+    width: 228px;
+    height: 23px;
+    left: 17px;
+    top: 420px;
+    font-family: 'Tatsam Bengali Rnd';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0c092a;
+  }
+  /* arrow style */
+  .arrow {
+    position: absolute;
+
+    left: 336px;
+    top: 420px;
+    width: 12px;
+  }
+
+  /* card style */
+  .card-container {
+    width: 100%;
+    height: 284px;
+    margin-top: 62px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 134px;
+  }
+  /* card style */
+  .card {
+    width: 107px;
+    height: 117px;
+    background: #f2f7ff;
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-top: 18px;
+  }
+
+  /* card one style */
+  .card.sp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* text style */
+  .sp {
+    font-family: 'Tatsam Bengali Rnd';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #636469;
+  }
+
+  /* image style */
+  .sp img {
+    width: 52px;
+    height: 52px;
+  }
+}

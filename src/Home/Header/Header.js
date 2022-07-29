@@ -1,13 +1,9 @@
 import React from 'react';
 import trophy from '../../Images/Icons/tr.svg';
-import bigdown from '../../Images/User/bigdown.png';
-import big from '../../Images/User/bigtrophy.png';
+import dash from '../../Images/User/dash.png';
 import backgroundelipse from '../../Images/User/fi.svg';
-import point from '../../Images/User/point.png';
-
-
 import user from '../../Images/User/user.png';
-import './Layout.css';
+import './Header.css';
 
 const FirstSection = () => {
   return (
@@ -33,7 +29,7 @@ const FirstSection = () => {
      </div>
       
       </div>
-      <div className="rewardPoint">
+      {/* <div className="rewardPoint">
         <div className='levelPoint'>
             <span className='rewardLevel'>আপনার লেভেল :  Warrior</span>
            <img src={point} alt="" />
@@ -44,6 +40,9 @@ const FirstSection = () => {
 
         </div>
         
+      </div> */}
+      <div className="dash">
+        <img src={dash} className='dash-img' alt="" />
       </div>
 
       
