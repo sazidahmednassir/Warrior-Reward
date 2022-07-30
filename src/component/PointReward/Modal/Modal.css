@@ -8,17 +8,20 @@
     display: none;
     overflow: hidden;
     outline: 0;
-    top: 515px !important;
+    top: 50% !important;
   }
 
   .modal-content {
-    border-radius: 2.3rem;
+    border-radius: 0;
+    border-top-left-radius: 2.3rem;
+    border-top-right-radius: 2.3rem;
+    height: 50vh !important;
   }
 
   .star-image {
-    width: 165px;
-    height: 143px;
-    margin-left: 86px;
+    width: 268px;
+    height: 240px;
+    margin-left: 43px;
   }
   .modal-header {
     justify-content: center;

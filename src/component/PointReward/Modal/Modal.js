@@ -12,7 +12,7 @@ const Modal = () => {
       aria-labelledby="rewardModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-dialog-end"  role="document">
+      <div class="modal-dialog modal-dialog-end" style={{"padding": 0, "margin":0}}  role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title text-center" id="rewardModalLabel">
