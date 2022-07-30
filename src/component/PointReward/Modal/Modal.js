@@ -1,4 +1,5 @@
 import React from 'react';
+import round from '../../../Images/Icons/ellipse154.svg';
 import star from '../../../Images/Images/star.png';
 import './Modal.css';
 
@@ -13,8 +14,11 @@ const Modal = () => {
       aria-hidden="true"
     >
       <div class="modal-dialog modal-dialog-end" style={{"padding": 0, "margin":0}}  role="document">
+      
         <div class="modal-content">
+       
           <div class="modal-header">
+          <img src={round} className='sp-modal' alt="" />
             <h5 class="modal-title text-center" id="rewardModalLabel">
             পর্যাপ্ত পয়েন্ট নেই 
 
