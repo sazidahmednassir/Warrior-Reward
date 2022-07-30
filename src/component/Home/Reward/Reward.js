@@ -1,6 +1,6 @@
 import React from 'react';
-import reward from '../../Images/User/Reward.png';
-import slider from '../../Images/User/slider.png';
+import reward from '../../../Images/Images/Reward.png';
+import slider from '../../../Images/Images/slider.png';
 import './Reward.css';
 
 const Reward = () => {

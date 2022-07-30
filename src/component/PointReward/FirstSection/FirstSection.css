@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px) {
+  .iphone-base {
+    width: 374px;
+    height: 44px;
+  }
+
+  .heading-section {
+    display: flex;
+    align-items: flex-center;
+  }
+
+  .left-arrow {
+    width: 24px;
+    height: 23.17px;
+    margin-left: 19px;
+  }
+
+  .heading-two {
+    width: 167px;
+    height: 30px;
+    margin-left: 19px;
+    font-family: 'Tatsam Bengali Rnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+  }
+  .game-level {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+}

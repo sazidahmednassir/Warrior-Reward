@@ -1,5 +1,5 @@
 import React from 'react';
-import nav from '../../Images/User/nav.png';
+import nav from '../../../Images/Images/nav.png';
 
 const Nav = () => {
     return (

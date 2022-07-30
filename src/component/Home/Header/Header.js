@@ -1,8 +1,8 @@
 import React from 'react';
-import trophy from '../../Images/Icons/tr.svg';
-import dash from '../../Images/User/dash.png';
-import backgroundelipse from '../../Images/User/fi.svg';
-import user from '../../Images/User/user.png';
+import trophy from '../../../Images/Icons/tr.svg';
+import dash from '../../../Images/Images/dash.png';
+import backgroundelipse from '../../../Images/Images/fi.svg';
+import user from '../../../Images/Images/user.png';
 import './Header.css';
 
 const FirstSection = () => {

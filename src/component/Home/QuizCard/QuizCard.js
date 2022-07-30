@@ -1,11 +1,11 @@
 import React from 'react';
-import arrow from '../../Images/Icons/arrow.svg';
-import bangladesh from '../../Images/User/bangladesh.png';
-import book from '../../Images/User/books.png';
-import bulb from '../../Images/User/bulb.png';
-import globe from '../../Images/User/globe.png';
-import voltage from '../../Images/User/high.png';
-import medal from '../../Images/User/Medal.png';
+import arrow from '../../../Images/Icons/arrow.svg';
+import bangladesh from '../../../Images/Images/bangladesh.png';
+import book from '../../../Images/Images/books.png';
+import bulb from '../../../Images/Images/bulb.png';
+import globe from '../../../Images/Images/globe.png';
+import voltage from '../../../Images/Images/high.png';
+import medal from '../../../Images/Images/Medal.png';
 import './QuizCard.css';
 
 const QuizCard = () => {
