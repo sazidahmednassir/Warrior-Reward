@@ -11,7 +11,8 @@
 
   img.dash-img {
     position: absolute;
-    top: 84px;
+    top: 88px;
+    left: 3%;
   }
 
   /* section content z index */
@@ -62,7 +63,7 @@
   .reward {
     position: absolute;
     width: 30px;
-    left: 272px;
+    left: 275px;
     top: 48px;
     display: flex;
     justify-content: center;
