@@ -17,7 +17,9 @@ const PointRules = () => {
                   নিয়মিত কুইজার্স গেম খেলে পয়েন্ট অর্জন করুন
                 </span>
               </div>
+              
             </div>
+           
           </li>
           <li class="list-group-item">
             <div className="rule">
@@ -61,6 +63,7 @@ const PointRules = () => {
             </div></li>
         </ul>
       </div>
+ 
     </div>
   );
 };

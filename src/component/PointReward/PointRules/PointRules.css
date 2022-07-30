@@ -37,4 +37,8 @@
     font-size: 12px;
     margin-left: 10px;
   }
+
+  .list-group-flush .list-group-item {
+    border: 1px solid #efefef;
+  }
 }

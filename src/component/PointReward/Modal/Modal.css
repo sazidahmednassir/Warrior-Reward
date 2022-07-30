@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+  .modal {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+    top: 515px !important;
+  }
+
+  .modal-content {
+    border-radius: 2.3rem;
+  }
+
+  .star-image {
+    width: 165px;
+    height: 143px;
+    margin-left: 86px;
+  }
+  .modal-header {
+    justify-content: center;
+    margin: 0 !important;
+  }
+
+  .modal-footer {
+    line-height: 25px;
+    text-align: center;
+  }
+}

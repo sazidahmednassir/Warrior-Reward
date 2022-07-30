@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+  .last-rule-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    margin-left: 0 !important;
+  }
+
+  .last-section-width {
+    width: 23rem;
+    margin-top: 68px;
+    margin-bottom: 31px;
+  }
+
+  .list-group-flush .list-group-item {
+    border: 1px solid #efefef;
+  }
+
+  .question {
+    width: 20px;
+    height: 20px;
+  }
+
+  .doc {
+    width: 20px;
+    height: 20px;
+  }
+}
