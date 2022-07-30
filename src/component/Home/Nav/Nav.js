@@ -1,10 +1,11 @@
 import React from 'react';
 import nav from '../../../Images/Images/nav.png';
+import './Nav.css';
 
 const Nav = () => {
     return (
       
-            <img src={nav} alt="navimage" />
+            <img src={nav} className='nav-image' alt="navimage" />
        
     );
 };

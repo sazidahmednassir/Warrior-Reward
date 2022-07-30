@@ -5,7 +5,7 @@
     width: 228px;
     height: 23px;
     left: 17px;
-    top: 420px;
+    top: 465px;
     font-family: 'Tatsam Bengali Rnd';
     font-style: normal;
     font-weight: 600;
@@ -16,9 +16,8 @@
   /* arrow style */
   .arrow {
     position: absolute;
-
-    left: 336px;
-    top: 420px;
+    left: 350px;
+    top: 462px;
     width: 12px;
   }
 
@@ -30,6 +29,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 134px;
+    align-items: center;
+    justify-items: center;
   }
   /* card style */
   .card {

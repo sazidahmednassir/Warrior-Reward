@@ -1,23 +1,21 @@
 import React from 'react';
 import trophy from '../../../Images/Icons/tr.svg';
 import dash from '../../../Images/Images/dash.png';
-import backgroundelipse from '../../../Images/Images/fi.svg';
+import header from '../../../Images/Images/header.png';
 import user from '../../../Images/Images/user.png';
 import './Header.css';
 
 const FirstSection = () => {
   return (
     <div className="section">
-      
+      <img src={header} className='header-image' alt="header" />
       <div className="content">
       <img src={user} className="user" alt="user" />
       <div className='info'>
         <span className='userName'>ইশতিয়াক</span>
       <span className='userLevel'>Level-Warrior</span>
       </div>
-      <div className='backgroundelipse'>
-        <img className='backgroundelipse--img' src={backgroundelipse} alt=""/>
-      </div>
+ 
     
      <div className='reward'>
         <img src={trophy} alt="" />
