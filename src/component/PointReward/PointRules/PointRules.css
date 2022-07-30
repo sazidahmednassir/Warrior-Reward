@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px) {
+  div {
+    box-sizing: border-box;
+    line-height: 16px;
+  }
+
+  .card {
+    margin-left: 0 !important;
+  }
+
+  .rules-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-width {
+    width: 23rem;
+    margin-bottom: 50px;
+  }
+
+  .right-arrow {
+    width: 20px;
+    height: 20px;
+  }
+
+  .rule {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .rule-text {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  .special-text {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
