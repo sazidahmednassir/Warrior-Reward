@@ -1,0 +1,31 @@
+@media only screen and (max-width: 768px) {
+  .card-header-content {
+    display: flex;
+  }
+
+  .first-content {
+    width: 122px;
+    height: 26px;
+    font-family: 'Tatsam Bengali Rnd';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+    color: #2c2c2c;
+    margin-top: 20px;
+    margin-left: 21px;
+  }
+
+  .second-content {
+    width: 76px;
+    height: 18px;
+    font-family: 'Tatsam Bengali Rnd';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2c2c2c;
+    margin-top: 23px;
+    margin-left: 23px;
+  }
+}
